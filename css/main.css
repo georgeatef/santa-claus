@@ -5,18 +5,28 @@
    ========================================================================== */
 
 
+header {
+	text-align: center;
+}
 
+header .namber-one {
+	font-weight: bold;
+}
 
+header .img-phone {
+	font-size: 24px;
+	float: left;
+	margin-top: 10px;
+	margin-left: 20px;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
+header .callback-text {
+	text-transform: uppercase;
+	display: inline-block;
+	border-style: none none dashed none;
+	border-width: 1px;
+	border-color: #d14d53;
+	margin-left: 10px;
+	margin-top: 10px;
+	float: left;
+}

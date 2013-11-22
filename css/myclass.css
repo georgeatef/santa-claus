@@ -1,0 +1,62 @@
+body {
+	min-width: 960px !important;
+	font-family: "Decima Nova Pro", "Arial";
+	font-size: 18px;
+	font-weight: 400;
+}
+
+.container {
+	max-width: none !important;
+	width: 960px;
+}
+
+.col-xs-1,
+.col-xs-2,
+.col-xs-3,
+.col-xs-4,
+.col-xs-5,
+.col-xs-6,
+.col-xs-7,
+.col-xs-8,
+.col-xs-9,
+.col-xs-10,
+.col-xs-11,
+.col-xs-12 {
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+.font18-R {
+	font-size: 18px;
+	font-weight: 400;
+}
+
+.font18-B {
+	font-size: 18px;
+	font-weight: 700;
+}
+
+.font24-R {
+	font-size: 24px;
+	font-weight: 400;
+}
+
+.font24-B {
+	font-size: 24px;
+	font-weight: 700;
+}
+
+.font30-R {
+	font-size: 30px;
+	font-weight: 400;
+}
+
+.font30-B {
+	font-size: 30px;
+	font-weight: 700;
+}
+
+.nowrap-div {
+	display: inline-block;
+}
+
