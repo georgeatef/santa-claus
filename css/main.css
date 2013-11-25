@@ -78,7 +78,6 @@ section.profi-santa .discouts-form-ontop {
 	position: absolute;
 	width: 330px;
 	top: 0;
-
 }
 
 section.profi-santa .discouts-form-ontop .discounts-lable {
@@ -126,18 +125,15 @@ section.profi-santa .discouts-form-ontop .timer-container .timer-lable {
 
 section.conclusion-table {
 	margin-left: auto;
-	margin-right: auto;
+	margin-right: auto;38b9c838b9c8
+}38b9c8
+
+		/*=====  Почему мы  =====  BEGIN  =====*/
+section.conclusion-table {
 }
 
-/*
-=====
-Почему мы
-BEGIN
-=====
-*/
-section.conclusion-table {
+section.conclusion-table .conclusion-position {
 	margin-top: 72px;
-	margin-left: 30px;
 }
 
 section.conclusion-table .frame-bottom {
@@ -197,7 +193,7 @@ section.conclusion-table .like {
 	margin-bottom: 16px;
 	margin-left: 60px;
 }
-/*=====  Почему мы  =====  END  =====*/
+		/*=====  Почему мы  =====  END  =====*/
 
 
 /*Section 02 Наши костюмы*/
@@ -309,4 +305,62 @@ section.our-services .congratulations-02 {
 	padding-top: 150px;
 	width: 202px;
 	height: 306px;
+}
+
+
+/*Section 04 Как мы работаем*/
+section.how-we-work {
+	background-image: url('../img/how_we_work01.png');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-color: #38b9c8;
+	height: 390px;
+	margin-top: 90px;
+}
+
+
+/*Section 05 Отзывы наших клиентов*/
+section.reviews {
+	background-image: url('../img/reviews_background01.png');
+	background-repeat: repeat-x;
+	background-position: center;
+	background-color: transparent;
+	color: #fff;
+	height: 670px;
+	margin-top: 45px;
+	padding-top: 70px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+section.reviews .reviews-frame {
+	background-color: #000;
+	color: #fff;
+	width: 288px;
+	border-radius: 8px;
+	margin-top: 48px;
+	margin-right: 14px;
+	margin-left: 14px;
+}
+
+section.reviews .reviews-frame-in-frame {
+	background-color: #fff;
+	color: #000;
+	margin-top: -140px;
+	padding-top: 150px;
+	padding-left: 12px;
+	padding-bottom: 10px;
+	padding-right: 12px;
+	border-top-left-radius: 70px;
+	border-top-right-radius: 70px;
+	border-bottom-left-radius: 8px;
+	border-bottom-right-radius: 8px;
+}
+
+section.reviews .anna {
+	background-image: url('../img/reviews_anna01.png');
+	background-repeat: no-repeat;
+	width: 198px;
+	height: 198px;
+	margin-top: -20px;
 }

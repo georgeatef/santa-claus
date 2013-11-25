@@ -147,6 +147,10 @@ body {
   display: inline-block;
 }
 
+.text-align-left {
+  text-align: left;
+}
+
 .text-rubric {
   text-align: center;
   margin-left: auto;
