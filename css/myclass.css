@@ -1,13 +1,15 @@
 body {
-	min-width: 960px !important;
-	font-family: "Decima Nova Pro", "Arial";
-	font-size: 18px;
-	font-weight: 400;
+  min-width: 960px !important;
+  font-family: "Decima Nova Pro", "Arial";
+  font-size: 18px;
+  font-weight: 400;
 }
 
 .container {
-	max-width: none !important;
-	width: 960px;
+  max-width: none !important;
+  width: 960px;
+  padding-left: 0px;
+  padding-right: 0px;
 }
 
 .col-xs-1,
@@ -22,41 +24,197 @@ body {
 .col-xs-10,
 .col-xs-11,
 .col-xs-12 {
-	padding-left: 0px;
-	padding-right: 0px;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.font15-R,
+.font15-B,
+.font18-R,
+.font18-B,
+.font22-R,
+.font22-B,
+.font24-R,
+.font24-B,
+.font26-R,
+.font26-B,
+.font30-R,
+.font30-B,
+.font34-R,
+.font34-B,
+.font36-R,
+.font36-B,
+.font48-R,
+.font48-B {
+  font-variant:small-caps;
+}
+
+.font15-R {
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.font15-B {
+  font-size: 15px;
+  font-weight: 700;
 }
 
 .font18-R {
-	font-size: 18px;
-	font-weight: 400;
+  font-size: 18px;
+  font-weight: 400;
 }
 
 .font18-B {
-	font-size: 18px;
-	font-weight: 700;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.font22-R {
+  font-size: 22px;
+  font-weight: 400;
+}
+
+.font22-B {
+  font-size: 22px;
+  font-weight: 700;
 }
 
 .font24-R {
-	font-size: 24px;
-	font-weight: 400;
+  font-size: 24px;
+  font-weight: 400;
 }
 
 .font24-B {
-	font-size: 24px;
-	font-weight: 700;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.font26-R {
+  font-size: 26px;
+  font-weight: 400;
+}
+
+.font26-B {
+  font-size: 26px;
+  font-weight: 700;
 }
 
 .font30-R {
-	font-size: 30px;
-	font-weight: 400;
+  font-size: 30px;
+  font-weight: 400;
 }
 
 .font30-B {
-	font-size: 30px;
-	font-weight: 700;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.font34-R {
+  font-size: 34px;
+  font-weight: 400;
+}
+
+.font34-B {
+  font-size: 34px;
+  font-weight: 700;
+}
+
+.font36-R {
+  font-size: 36px;
+  font-weight: 400;
+}
+
+.font36-B {
+  font-size: 36px;
+  font-weight: 700;
+}
+
+.font48-R {
+  font-size: 48px;
+  font-weight: 400;
+}
+
+.font48-B {
+  font-size: 48px;
+  font-weight: 700;
+}
+
+.color-red {
+  color: #8f0e0e;
 }
 
 .nowrap-div {
-	display: inline-block;
+  display: inline-block;
 }
 
+.text-rubric {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.text-rubric-uppercase {
+  text-transform: uppercase;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.text-through {
+  text-decoration: line-through;
+}
+
+/*
+=====
+Forms
+BEGIN
+=====
+*/
+.form-group {
+margin-bottom: 5px;
+}
+
+.form-control {
+  display: block;
+  width: 100%;
+  height: 32px;
+  padding: 6px 12px;
+  font-size: 14px;
+  line-height: 1.428571429;
+  color: #555;
+  vertical-align: middle;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);
+  box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);
+  -webkit-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+  transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+}
+
+.btn {
+display: inline-block;
+padding: 0px 12px;
+margin-bottom: 0;
+font-weight: normal;
+text-align: center;
+white-space: nowrap;
+vertical-align: middle;
+cursor: pointer;
+border: 1px solid transparent;
+border-radius: 4px;
+width: 280px;
+box-shadow: 0px 3px 0px 0px #A67202;
+-webkit-user-select: none;
+}
+
+.btn-warning {
+  color: #000;
+  background-color: #f0ad4e;
+  border-color: #eea236;
+}
+/*
+=====
+END
+=====
+*/

@@ -13,20 +13,190 @@ header .namber-one {
 	font-weight: bold;
 }
 
+.header-position {
+	margin-top: 24px;
+}
+
 header .img-phone {
 	font-size: 24px;
 	float: left;
-	margin-top: 10px;
+	margin-top: 20px;
 	margin-left: 20px;
 }
 
 header .callback-text {
-	text-transform: uppercase;
+	/*text-transform: uppercase;*/
 	display: inline-block;
 	border-style: none none dashed none;
 	border-width: 1px;
 	border-color: #d14d53;
 	margin-left: 10px;
-	margin-top: 10px;
+	margin-top: 20px;
 	float: left;
 }
+
+.rubric {
+	width: 820px;
+	margin-top: 20px;
+}
+
+
+/*Section01 Професиональный сантаклаус и */
+section.profi-santa {
+	background: url('../img/profi_santa_bacground01.png') center center;
+	background-color: #fff;
+	height: 563px;
+	background-repeat: repeat-x;
+	margin-top: 6px;
+}
+
+section.profi-santa .profi-ribbon {
+	position: relative;
+	margin-top: -10px;
+	left: 62px;
+}
+
+section.profi-santa .discouts-form-all {
+	position: relative;
+	margin-top: 30px;
+	float: right;
+	margin-right: -10px;
+	text-align: center;
+}
+
+section.profi-santa .discouts-form-opocity {
+	background-color: #fff;
+	border-style: solid;
+	border-color: #79b4c8;
+	border-width: 6px;
+	width: 332px;
+	height: 366px;
+	opacity: 0.7;
+}
+
+section.profi-santa .discouts-form-ontop {
+	position: absolute;
+	width: 330px;
+	top: 0;
+
+}
+
+section.profi-santa .discouts-form-ontop .discounts-lable {
+	margin-left: 10px;
+	margin-top: -10px;
+}
+
+section.profi-santa .discouts-form-ontop .discounts-text {
+	line-height: 1.1;
+}
+
+section.profi-santa .discouts-form-ontop .form-discounts {
+	width: 280px;
+	margin-top: 2px;
+}
+
+section.profi-santa .discouts-form-ontop .text-form-under {
+	width: 280px;
+	white-space: nowrap;
+	margin-top: 10px;
+}
+
+section.profi-santa .discouts-form-ontop .timer {
+	background: url('../img/timer01.png') center center;
+	background-repeat: no-repeat;
+	width: 207px;
+	height: 62px;
+	white-space: nowrap;
+}
+
+section.profi-santa .discouts-form-ontop .timer .timer-section {
+	background: url('../img/timer_section01.png') center;
+	background-repeat: repeat-x;
+	background-position-y: 9px;
+	width: 66px;
+}
+
+section.profi-santa .discouts-form-ontop .timer-container {
+	margin-top: -3px;
+}
+
+section.profi-santa .discouts-form-ontop .timer-container .timer-lable {
+	width: 66px;
+}
+
+section.conclusion-table {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/*
+=====
+Почему мы
+BEGIN
+=====
+*/
+section.conclusion-table {
+	margin-left: 30px;
+}
+
+section.conclusion-table .frame-bottom {
+	border-style: solid;
+	border-color: #949494;
+	border-width: 1px;
+	border-style: none none solid none;
+	width: 464px;
+	margin-bottom: 20px;
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+section.conclusion-table .frame-left {
+	border-style: solid;
+	border-color: #949494;
+	border-width: 1px;
+	border-style: none none none solid;
+	width: 1px;
+	height: 72px;
+}
+
+section.conclusion-table .conclusion-text {
+	margin-left: 112px;
+}
+
+section.conclusion-table .smile {
+	background-image: url('../img/conclusion_smele01.png');
+	background-repeat: no-repeat;
+	background-position: left center;
+	text-align: left;
+	margin-bottom: 16px;
+}
+
+section.conclusion-table .five {
+	background-image: url('../img/conclusion_five01.png');
+	background-repeat: no-repeat;
+	background-position: left center;
+	text-align: left;
+	margin-bottom: 16px;
+	margin-left: 60px;
+}
+
+section.conclusion-table .medal {
+	background-image: url('../img/conclusion_medal01.png');
+	background-repeat: no-repeat;
+	background-position: left center;
+	text-align: left;
+	margin-bottom: 16px;
+}
+
+section.conclusion-table .like {
+	background-image: url('../img/conclusion_like01.png');
+	background-repeat: no-repeat;
+	background-position: left center;
+	text-align: left;
+	margin-bottom: 16px;
+	margin-left: 60px;
+}
+/*=====
+Почему мы
+END
+=====*/
