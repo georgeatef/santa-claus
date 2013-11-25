@@ -41,7 +41,7 @@ header .callback-text {
 }
 
 
-/*Section01 Професиональный сантаклаус и */
+/*Section 01 Професиональный сантаклаус и */
 section.profi-santa {
 	background: url('../img/profi_santa_bacground01.png') center center;
 	background-color: #fff;
@@ -136,6 +136,7 @@ BEGIN
 =====
 */
 section.conclusion-table {
+	margin-top: 72px;
 	margin-left: 30px;
 }
 
@@ -196,7 +197,116 @@ section.conclusion-table .like {
 	margin-bottom: 16px;
 	margin-left: 60px;
 }
-/*=====
-Почему мы
-END
-=====*/
+/*=====  Почему мы  =====  END  =====*/
+
+
+/*Section 02 Наши костюмы*/
+.our-suit-rubric {
+	margin-top: 80px;
+}
+
+section.our-suit {
+	background-image: url('../img/oursuit_background01.png');
+	background-repeat: repeat-x;
+	height: 418px;
+	margin-top: 10px;
+}
+
+section.our-suit .suit-santa{
+	background-image: url('../img/oursuit_santa01.png');
+	background-repeat: no-repeat;
+	background-color: transparent;
+	background-position: center;
+	margin-top: 50px;
+	width: 250px;
+	height: 322px;
+}
+
+section.our-suit .suit-snow-maiden {
+	background-image: url('../img/oursuit_snow_maiden01.png');
+	background-repeat: no-repeat;
+	background-color: transparent;
+	background-position: center;
+	width: 250px;
+	height: 322px;
+}
+
+section.our-suit .suit-snowman {
+	background-image: url('../img/oursuit_snowman01.png');
+	background-repeat: no-repeat;
+	background-color: transparent;
+	background-position: center;
+	width: 80px;
+	height: 322px;
+}
+
+
+/*Section 03 Наши услуги*/
+section.our-services {
+	background-color: transparent;
+	margin-top: 67px;
+}
+
+section.our-services .our-services-frame-row {
+	width: 315px;
+}
+
+section.our-services .our-services-text {
+	margin-top: 50px;
+}
+
+section.our-services .congratulations-01 {
+	background-image: url('../img/our_services_congratulations01.png');
+	background-repeat: no-repeat;
+	background-color: transparent;
+	padding-top: 150px;
+	width: 202px;
+	height: 306px;
+	margin-top: 20px;
+}
+
+section.our-services .matinee {
+	background-image: url('../img/our_services_matinee01.png');
+	background-repeat: no-repeat;
+	background-color: transparent;
+	padding-top: 150px;
+	width: 202px;
+	height: 306px;
+}
+
+section.our-services .happy-new-year {
+	background-image: url('../img/our_services_happy_new_year01.png');
+	background-repeat: no-repeat;
+	background-color: transparent;
+	padding-top: 150px;
+	width: 202px;
+	height: 306px;
+}
+
+section.our-services .corporate {
+	background-image: url('../img/our_services_corporate01.png');
+	background-repeat: no-repeat;
+	background-color: transparent;
+	padding-top: 150px;
+	width: 202px;
+	height: 306px;
+	margin-top: 40px;
+}
+
+section.our-services .saxofone {
+	background-image: url('../img/our_services_saxofone01.png');
+	background-repeat: no-repeat;
+	background-color: transparent;
+	padding-top: 150px;
+	width: 212px;
+	height: 306px;
+}
+
+section.our-services .congratulations-02 {
+	background-image: url('../img/our_services_congratulations02.png');
+	background-repeat: no-repeat;
+	background-color: transparent;
+	padding-top: 150px;
+	width: 202px;
+	height: 306px;
+}
