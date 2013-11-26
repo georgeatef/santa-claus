@@ -367,6 +367,10 @@ section.reviews .anna {
 
 
 /*Section 06 Проблемы возникающие при заказе ...*/
+section.no-problem {
+	margin-top: 60px;
+}
+
 section.no-problem .description-problem,
 section.no-problem .description-no-problem {
 	width: 420px;
@@ -401,4 +405,48 @@ section.no-problem .tick {
 	background-repeat: no-repeat;
 	background-position: left;
 	margin-top: 20px;
+}
+
+
+/*Section 06 Проблемы возникающие при заказе ...*/
+section.our-clients {
+	background-color: #38b9c8;
+	color: #fff;
+	margin-top: 70px;
+	padding-top: 25px;
+	padding-bottom: 30px;
+	text-align: center;
+}
+
+section.our-clients .frame-our-clients {
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+section.our-clients .biglion {
+	background-image: url('../img/our_clients_biglion01.png');
+	background-repeat: no-repeat;
+	height: 54px;
+	width: 109px;
+}
+
+section.our-clients .emozzi {
+	background-image: url('../img/our_clients_emozzi01.png');
+	background-repeat: no-repeat;
+	height: 54px;
+	width: 120px;
+}
+
+section.our-clients .roshen {
+	background-image: url('../img/our_clients_roshen01.png');
+	background-repeat: no-repeat;
+	height: 56px;
+	width: 104px;
+}
+
+section.our-clients .bodo {
+	background-image: url('../img/our_clients_bodo01.png');
+	background-repeat: no-repeat;
+	height: 55px;
+	width: 141px;
 }
