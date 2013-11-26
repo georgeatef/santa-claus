@@ -10,6 +10,7 @@ header {
 	font-size: 18px;
 	font-weight: bold;
 	white-space: nowrap;
+	margin-bottom: 30px;
 }
 
 header .namber-one {
@@ -31,11 +32,16 @@ header .callback-text {
 	/*text-transform: uppercase;*/
 	display: inline-block;
 	border-style: none none dashed none;
+	color: #000;
 	border-width: 1px;
 	border-color: #d14d53;
 	margin-left: 10px;
 	margin-top: 20px;
 	float: left;
+}
+
+header .address {
+	font-weight: 400;
 }
 
 .rubric {
@@ -209,9 +215,10 @@ section.our-services .our-services-text {
 section.our-services .congratulations-01 {
 	background-image: url('../img/our_services_congratulations01.png');
 	background-repeat: no-repeat;
+	background-position: center top;
 	background-color: transparent;
 	padding-top: 150px;
-	width: 202px;
+	min-width: 210px;
 	height: 306px;
 	margin-top: 20px;
 }
@@ -219,46 +226,51 @@ section.our-services .congratulations-01 {
 section.our-services .matinee {
 	background-image: url('../img/our_services_matinee01.png');
 	background-repeat: no-repeat;
+	background-position: center top;
 	background-color: transparent;
 	padding-top: 150px;
-	width: 202px;
+	min-width: 210px;
 	height: 306px;
 }
 
 section.our-services .happy-new-year {
 	background-image: url('../img/our_services_happy_new_year01.png');
 	background-repeat: no-repeat;
+	background-position: center top;
 	background-color: transparent;
 	padding-top: 150px;
-	width: 202px;
+	min-width: 210px;
 	height: 306px;
 }
 
 section.our-services .corporate {
 	background-image: url('../img/our_services_corporate01.png');
 	background-repeat: no-repeat;
+	background-position: center top;
 	background-color: transparent;
 	padding-top: 150px;
-	width: 202px;
+	min-width: 210px;
 	height: 306px;
 	margin-top: 40px;
 }
 
 section.our-services .saxofone {
 	background-image: url('../img/our_services_saxofone01.png');
+	background-position: center top;
 	background-repeat: no-repeat;
 	background-color: transparent;
 	padding-top: 150px;
-	width: 212px;
+	min-width: 210px;
 	height: 306px;
 }
 
 section.our-services .congratulations-02 {
 	background-image: url('../img/our_services_congratulations02.png');
 	background-repeat: no-repeat;
+	background-position: center top;
 	background-color: transparent;
 	padding-top: 150px;
-	width: 202px;
+	min-width: 210px;
 	height: 306px;
 }
 
