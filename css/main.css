@@ -406,9 +406,27 @@ section.our-clients .bodo {
 
 /*Section 08 Акция "Девочка с подарком"*/
 section.action {
-	background: url('../img/action_background01.png') center center;
+	background-image: url('../img/action_background01.png');
+	background-position: center center;
 	background-color: #fff;
 	background-repeat: repeat-x;	
 	height: 458px;
 	margin-top: 40px;
+}
+
+/*Footer*/
+footer {
+	background-color: #1c1c1c;
+	color: #fff;
+	padding-top: 35px;
+	padding-bottom: 35px;
+}
+
+footer .width-frame-text {
+	width: 540px;
+	margin-left: auto;
+	margin-right: auto;
+	font-variant: normal;
+	text-align: center;
+	white-space: nowrap;
 }
