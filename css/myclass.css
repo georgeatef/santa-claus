@@ -147,6 +147,10 @@ body {
   display: inline-block;
 }
 
+.nowrap-text {
+  white-space: nowrap;
+}
+
 .text-align-left {
   text-align: left;
 }

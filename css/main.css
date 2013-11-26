@@ -290,28 +290,37 @@ section.how-we-work {
 section.reviews {
 	background-image: url('../img/reviews_background01.png');
 	background-repeat: repeat-x;
-	background-position: center;
-	background-color: transparent;
+	background-position: center top;
+	background-color: #888c8a;
 	color: #fff;
 	margin-top: 45px;
 	padding-top: 70px;
 	margin-left: auto;
 	margin-right: auto;
-	padding-bottom: 30px;
+}
+
+section.reviews .bottom-background {
+	background-image: url('../img/reviews_background_bottom01.png');
+	background-repeat: repeat-x;
+	background-color: #fff;
+	background-position: center bottom;
+	min-height: 17px;	
+	margin-top: 60px;
 }
 
 section.reviews .reviews-frame {
-	background-color: #000;
+	/*background-color: #000;*/
 	color: #fff;
 	width: 288px;
 	border-radius: 8px;
 	margin-top: 48px;
-	margin-right: 14px;
-	margin-left: 14px;
+	margin-right: 15px;
+	margin-left: 15px;
+	float: left;
 }
 
 section.reviews .reviews-frame-in-frame {
-	background-color: #fff;
+	background-color: #f5f4f4;
 	color: #000;
 	margin-top: -140px;
 	padding-top: 150px;
@@ -322,6 +331,7 @@ section.reviews .reviews-frame-in-frame {
 	border-top-right-radius: 70px;
 	border-bottom-left-radius: 8px;
 	border-bottom-right-radius: 8px;
+	min-height: 400px;
 }
 
 section.reviews .anna {
