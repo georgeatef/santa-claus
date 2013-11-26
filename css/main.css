@@ -74,62 +74,14 @@ section.profi-santa .discouts-form-opocity {
 	opacity: 0.7;
 }
 
-section.profi-santa .discouts-form-ontop {
-	position: absolute;
-	width: 330px;
-	top: 0;
-}
-
-section.profi-santa .discouts-form-ontop .discounts-lable {
-	margin-left: 10px;
-	margin-top: -10px;
-}
-
-section.profi-santa .discouts-form-ontop .discounts-text {
-	line-height: 1.1;
-}
-
-section.profi-santa .discouts-form-ontop .form-discounts {
-	width: 280px;
-	margin-top: 2px;
-}
-
-section.profi-santa .discouts-form-ontop .text-form-under {
-	width: 280px;
-	white-space: nowrap;
-	margin-top: 10px;
-}
-
-section.profi-santa .discouts-form-ontop .timer {
-	background: url('../img/timer01.png') center center;
-	background-repeat: no-repeat;
-	width: 207px;
-	height: 62px;
-	white-space: nowrap;
-}
-
-section.profi-santa .discouts-form-ontop .timer .timer-section {
-	background: url('../img/timer_section01.png') center;
-	background-repeat: repeat-x;
-	background-position-y: 9px;
-	width: 66px;
-}
-
-section.profi-santa .discouts-form-ontop .timer-container {
-	margin-top: -3px;
-}
-
-section.profi-santa .discouts-form-ontop .timer-container .timer-lable {
-	width: 66px;
-}
-
-section.conclusion-table {
-	margin-left: auto;
-	margin-right: auto;38b9c838b9c8
-}38b9c8
+/*=====  Discounts form  =====  BEGIN  =====*/
+/*---*/
+/*=====  END  =====  */
 
 		/*=====  Почему мы  =====  BEGIN  =====*/
 section.conclusion-table {
+	margin-left: auto;
+	margin-right: auto;
 }
 
 section.conclusion-table .conclusion-position {
@@ -408,7 +360,7 @@ section.no-problem .tick {
 }
 
 
-/*Section 06 Проблемы возникающие при заказе ...*/
+/*Section 07 Проблемы возникающие при заказе ...*/
 section.our-clients {
 	background-color: #38b9c8;
 	color: #fff;
@@ -449,4 +401,14 @@ section.our-clients .bodo {
 	background-repeat: no-repeat;
 	height: 55px;
 	width: 141px;
+}
+
+
+/*Section 08 Акция "Девочка с подарком"*/
+section.action {
+	background: url('../img/action_background01.png') center center;
+	background-color: #fff;
+	background-repeat: repeat-x;	
+	height: 458px;
+	margin-top: 40px;
 }

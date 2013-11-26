@@ -168,12 +168,7 @@ body {
   text-decoration: line-through;
 }
 
-/*
-=====
-Forms
-BEGIN
-=====
-*/
+/*=====  Forms  =====  BEGIN  =====*/
 .form-group {
 margin-bottom: 5px;
 }
@@ -238,5 +233,75 @@ section.our-services .btn-danger {
   color: #fff;
   background-color: #d2322d;
   border-color: #ac2925;
+}
+/*=====  END  =====  */
+
+
+/*=====  Discounts form  =====  BEGIN  =====*/
+.discouts-form-all {
+  position: relative;
+  margin-top: 30px;
+  float: right;
+  margin-right: -10px;
+  text-align: center;
+}
+
+.discouts-form-opocity {
+  background-color: #fff;
+  border-style: solid;
+  border-color: #79b4c8;
+  border-width: 6px;
+  width: 332px;
+  height: 366px;
+  opacity: 0.7;
+}
+
+.discouts-form-ontop {
+  position: absolute;
+  width: 330px;
+  top: 0;
+}
+
+.discouts-form-ontop .discounts-lable {
+  margin-left: 10px;
+  margin-top: -10px;
+}
+
+.discouts-form-ontop .discounts-text {
+  line-height: 1.1;
+}
+
+.discouts-form-ontop .form-discounts {
+  width: 280px;
+  margin-top: 2px;
+}
+
+.discouts-form-ontop .text-form-under {
+  width: 280px;
+  white-space: nowrap;
+  margin-top: 10px;
+}
+
+.discouts-form-ontop .timer {
+  background: url('../img/timer01.png') center center;
+  background-repeat: no-repeat;
+  width: 207px;
+  height: 62px;
+  white-space: nowrap;
+}
+
+.discouts-form-ontop .timer .timer-section {
+  background: url('../img/timer_section01.png') center;
+  background-repeat: repeat-x;
+  background-position-y: 9px;
+  width: 66px;
+}
+
+.discouts-form-ontop .timer-container {
+  margin-top: -3px;
+}
+
+.discouts-form-ontop .timer-container .timer-lable {
+  width: 66px;
 }
 /*=====  END  =====  */
