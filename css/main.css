@@ -326,11 +326,11 @@ section.reviews {
 	background-position: center;
 	background-color: transparent;
 	color: #fff;
-	height: 670px;
 	margin-top: 45px;
 	padding-top: 70px;
 	margin-left: auto;
 	margin-right: auto;
+	padding-bottom: 30px;
 }
 
 section.reviews .reviews-frame {
@@ -363,4 +363,42 @@ section.reviews .anna {
 	width: 198px;
 	height: 198px;
 	margin-top: -20px;
+}
+
+
+/*Section 06 Проблемы возникающие при заказе ...*/
+section.no-problem .description-problem,
+section.no-problem .description-no-problem {
+	width: 420px;
+	float: left;
+	margin-left: 30px;
+	margin-right: 30px;
+}
+
+section.no-problem .no-problem-text {
+	margin-left: 65px;
+	text-align: left;
+	min-height: 50px;
+}
+
+
+section.no-problem .cloud {
+	background-image: url('../img/no_problem_cloud01.png');
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 137px;
+}
+
+section.no-problem .cross {
+	background-image: url('../img/no_problem_cross01.png');
+	background-repeat: no-repeat;
+	background-position: left;
+	margin-top: 20px;
+}
+
+section.no-problem .tick {
+	background-image: url('../img/no_problem_tick01.png');
+	background-repeat: no-repeat;
+	background-position: left;
+	margin-top: 20px;
 }
