@@ -370,6 +370,13 @@ section.no-problem .cloud {
 	height: 137px;
 }
 
+section.no-problem .heart {
+	background-image: url('../img/no_problem_heart01.png');
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 137px;
+}
+
 section.no-problem .cross {
 	background-image: url('../img/no_problem_cross01.png');
 	background-repeat: no-repeat;
@@ -381,7 +388,7 @@ section.no-problem .tick {
 	background-image: url('../img/no_problem_tick01.png');
 	background-repeat: no-repeat;
 	background-position: left;
-	margin-top: 20px;
+	margin-top: 22px;
 }
 
 
