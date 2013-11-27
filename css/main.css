@@ -55,9 +55,23 @@ header {
 section.profi-santa {
 	background: url('../img/profi_santa_bacground01.png') center center;
 	background-color: #fff;
-	height: 563px;
+	min-height: 676px;
 	background-repeat: repeat-x;
 	margin-top: 6px;
+}
+
+section.profi-santa .profi-santa-text01 {
+	background-color: #fff;
+	color: #000;
+	background-repeat: repeat-x;
+	text-align: center;
+}
+
+section.profi-santa .profi-santa-text02 {
+	background-color: #7f9297;
+	color: #fff;
+	background-repeat: repeat-x;
+	text-align: center;
 }
 
 section.profi-santa .profi-ribbon {
@@ -422,7 +436,7 @@ section.action {
 	background-color: #fff;
 	background-repeat: repeat-x;	
 	height: 458px;
-	margin-top: 40px;
+	margin-top: 10px;
 }
 
 /*Footer*/

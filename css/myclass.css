@@ -205,7 +205,7 @@ body {
 
 /*=====  Forms  =====  BEGIN  =====*/
 .form-group {
-margin-bottom: 5px;
+margin-bottom: 10px;
 }
 
 .form-control {
@@ -238,7 +238,7 @@ cursor: pointer;
 border: 1px solid transparent;
 border-radius: 4px;
 width: 280px;
-box-shadow: 0px 3px 0px 0px #A67202;
+box-shadow: 0px 3px 0px 0px #a67202;
 -webkit-user-select: none;
 }
 
@@ -275,7 +275,7 @@ section.our-services .btn-danger {
 /*=====  Discounts form  =====  BEGIN  =====*/
 .discouts-form-all {
   position: relative;
-  margin-top: 30px;
+  margin-top: 45px;
   float: right;
   margin-right: -10px;
   text-align: center;
@@ -287,8 +287,7 @@ section.our-services .btn-danger {
   border-color: #79b4c8;
   border-width: 6px;
   width: 332px;
-  height: 366px;
-  opacity: 0.7;
+  height: 380px;
 }
 
 .discouts-form-ontop {
@@ -308,7 +307,7 @@ section.our-services .btn-danger {
 
 .discouts-form-ontop .form-discounts {
   width: 280px;
-  margin-top: 2px;
+  margin-top: 10px;
 }
 
 .discouts-form-ontop .text-form-under {
