@@ -3,7 +3,9 @@ $(function(){
 	//////////
   //=====  Forms  =====//
   //
-	var recipient = 'knplink@gmail.com'; //dedmoroz.snegur@gmail.com
+  var recipient = 'momelnyk@gmail.com';
+	// var recipient = 'knplink@gmail.com';
+ //  var recipient = 'dedmoroz.snegur@gmail.com';
 
 	$("form").submit(function(event){
 		event.preventDefault();
@@ -20,29 +22,29 @@ $(function(){
 		$(this).find('[name="recipient"]').val(recipient);
 
 		$.post('http://lpmailer.herokuapp.com/', $(this).serialize()).always(function(){
-			window.location = 'index.html';
+			window.location = 'thank.html';
 		})
 	});
 
 
 	//////////
-  //=====  Fix validation alert  =====//
+  //=====  Show validation alert in Russian  =====//
   //
 
-  $(document).ready(function() {
-    var elements = document.getElementsByTagName("input, textarea");
-    for (var i = 0; i < elements.length; i++) {
-      elements[i].oninvalid = function(e) {
-        e.target.setCustomValidity("");
-        if (!e.target.validity.valid) {
-          e.target.setCustomValidity("Пожалуйста, заполните это поле");
-        }
-      };
-      elements[i].oninput = function(e) {
-        e.target.setCustomValidity("");
-      };
-    }
-  });
+  // $(document).ready(function() {
+  //   var elements = document.getElementsByTagName("input, textarea");
+  //   for (var i = 0; i < elements.length; i++) {
+  //     elements[i].oninvalid = function(e) {
+  //       e.target.setCustomValidity("");
+  //       if (!e.target.validity.valid) {
+  //         e.target.setCustomValidity("Пожалуйста, заполните это поле");
+  //       }
+  //     };
+  //     elements[i].oninput = function(e) {
+  //       e.target.setCustomValidity("");
+  //     };
+  //   }
+  // });
 
 
 	//////////
@@ -123,8 +125,8 @@ $(function(){
       $(".countdownHours").text(pad(hours));
       $(".countdownMinutes").text(pad(minutes));
       $(".countdownSeconds").text(pad(seconds));
-      onlyTo.textContent=(pad(only_day));
-      offerTo.textContent=(pad(offer_day));
+      // onlyTo.textContent=(pad(only_day));
+      // offerTo.textContent=(pad(offer_day));
   }, 1000);
 
-})();
+});
