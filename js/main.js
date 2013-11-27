@@ -3,7 +3,7 @@ $(function(){
 	//////////
   //=====  Forms  =====//
   //
-  var recipient = 'momelnyk@gmail.com';
+  var recipient = 'dedmoroz.snegur@gmail.com';
 	// var recipient = 'knplink@gmail.com';
  //  var recipient = 'dedmoroz.snegur@gmail.com';
 
