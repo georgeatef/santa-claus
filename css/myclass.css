@@ -24,8 +24,21 @@ body {
   min-height: 520px;
 }
 
+.modal-content-callbac {
+  border-width: 6px;
+  border-style: solid;
+  border-color: #89d2f6;
+  border-radius: 8px;
+  position: relative;
+  min-height: 320px;
+}
+
 .modal-dialog.modal-dialog-image {
   width: 783px !important;
+}
+
+.modal-callback {
+  width: 333px !important;
 }
 /*=====  END  =====*/
 
