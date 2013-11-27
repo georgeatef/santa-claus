@@ -296,7 +296,6 @@ section.reviews .reviews-frame {
 	/*background-color: #000;*/
 	color: #fff;
 	width: 288px;
-	border-radius: 8px;
 	margin-top: 48px;
 	margin-right: 15px;
 	margin-left: 15px;
@@ -311,10 +310,6 @@ section.reviews .reviews-frame-in-frame {
 	padding-left: 12px;
 	padding-bottom: 10px;
 	padding-right: 12px;
-	border-top-left-radius: 70px;
-	border-top-right-radius: 70px;
-	border-bottom-left-radius: 8px;
-	border-bottom-right-radius: 8px;
 	min-height: 400px;
 }
 
