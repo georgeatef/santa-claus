@@ -278,6 +278,10 @@ section.our-services .btn-danger {
 
 /*=====  Discounts form  =====  BEGIN  =====*/
   /*===  Форма Section 01  ===*/
+.text-white {
+  color: transparent;
+}
+
 .top-form-control {
   display: block;
   width: 100%;
