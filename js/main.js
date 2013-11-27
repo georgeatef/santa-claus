@@ -31,20 +31,20 @@ $(function(){
   //=====  Show validation alert in Russian  =====//
   //
 
-  // $(document).ready(function() {
-  //   var elements = document.getElementsByTagName("input, textarea");
-  //   for (var i = 0; i < elements.length; i++) {
-  //     elements[i].oninvalid = function(e) {
-  //       e.target.setCustomValidity("");
-  //       if (!e.target.validity.valid) {
-  //         e.target.setCustomValidity("Пожалуйста, заполните это поле");
-  //       }
-  //     };
-  //     elements[i].oninput = function(e) {
-  //       e.target.setCustomValidity("");
-  //     };
-  //   }
-  // });
+    $(document).ready(function() {
+      var elements = document.getElementsByTagName("input, textarea");
+      for (var i = 0; i < elements.length; i++) {
+        elements[i].oninvalid = function(e) {
+          e.target.setCustomValidity("");
+          if (!e.target.validity.valid) {
+            e.target.setCustomValidity("Пожалуйста, заполните это поле");
+          }
+        };
+        elements[i].oninput = function(e) {
+          e.target.setCustomValidity("");
+        };
+      }
+    });
 
 
 	//////////
