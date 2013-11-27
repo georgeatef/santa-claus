@@ -40,8 +40,9 @@ header .callback-text {
 	float: left;
 }
 
-header .address {
+header {
 	font-weight: 400;
+	font-variant: small-caps;
 }
 
 .rubric {
