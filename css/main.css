@@ -547,3 +547,21 @@ footer .width-frame-text {
 }
 
 /*=====  END  =====  */
+
+
+/*=====  Странице благодарности  =====  BEGIN  =====*/
+section.thank {
+	background: url('../img/profi_santa_bacground01.png') center center;
+	background-color: #fff;
+	min-height: 458px;
+	background-repeat: repeat-x;
+}
+
+section.thank .thank-text {
+	text-align: center;
+	margin-top: 100px;
+	margin-bottom: 50px;
+	color: #fff;
+}
+
+/*=====  END  =====*/
