@@ -48,17 +48,21 @@
       <div class="callback-modal text-rubric nowrap-div">
         <img class="modal-discounts-lable-callback" src="img/discouts_form_lable01.png" alt="Discouts Lable">
         <div class="font26-B nowrap-div">Заказать обратный звонок</div>
-
+        <input type="hidden" name="subject" value='Заказали "Обратный звонок"' />
+        <input type="hidden" name="sender" value="info@toplanding.com.ua" />
+        <input type="hidden" name="recipient" />
+        <input type="hidden" name="name" />
+        <input type="hidden" name="message" />
         <div class="form-callback text-rubric">
           <form class="form-horizontal" role="form">
             <div class="form-group">
               <div class="col-md-12">
-                <input type="text" class="form-control" placeholder="Ваш Email или id Вконтакте">
+                <input type="text" name="name" class="form-control" placeholder="Ваше имя">
               </div>
             </div>
             <div class="form-group">
               <div class="col-md-12">
-                <input type="text" class="form-control" placeholder="Ваш контактный телефон">
+                <input type="text" name="phone" class="form-control" placeholder="Контактный телефон">
               </div>
             </div>
             <div class="form-group">

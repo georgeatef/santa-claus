@@ -1,6 +1,31 @@
 $(function(){
 
 	//
+  //=====  Forms  =====//
+  //
+	var recipient = 'knplink@gmail.com'; //dedmoroz.snegur@gmail.com
+
+	$("form").submit(function(event){
+		event.preventDefault();
+
+    // Fix required not supported, emulate it
+    if (!Modernizr.input.required) {
+      var requiredInputsAreEmpty = $(this).find("input[required]").filter(function(){ return $(this).val() == ""; }).length;
+      if (requiredInputsAreEmpty) {
+        alert("Поля обязательны для заполнения!");
+        return false;
+      }
+    }
+
+		$(this).find('[name="recipient"]').val(recipient);
+
+		$.post('http://lpmailer.herokuapp.com/', $(this).serialize()).always(function(){
+			window.location = 'thank.html';
+		})
+	});
+
+
+	//
   //=====  Placeholder  =====//
   //
   // Support placeholders in IE9
@@ -76,7 +101,7 @@ $(function(){
       // countdownSeconds.textContent=(pad(seconds));
       $(".countdownHours").text(pad(hours));
       $(".countdownMinutes").text(pad(minutes));
-      $(".countdownMeconds").text(pad(seconds));
+      $(".countdownSeconds").text(pad(seconds));
       onlyTo.textContent=(pad(only_day));
       offerTo.textContent=(pad(offer_day));
   }, 1000);
