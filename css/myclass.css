@@ -242,14 +242,6 @@ box-shadow: 0px 3px 0px 0px #a67202;
 -webkit-user-select: none;
 }
 
-/*.btn-warning {
-  background-image: linear-gradient(to bottom,#88F04E 0,#EC501F 100%);
-background-repeat: repeat-x;
-  color: #000;
-  background-color: #f0ad4e;
-  border-color: #eea236;
-}*/
-
 .btn-warning {
   background-image: -webkit-gradient(linear,left 0,left 100%,from(#f0ad4e),to(#ec971f));
   background-image: -webkit-linear-gradient(top,#f0ad4e,0%,#ec971f,100%);
@@ -285,6 +277,114 @@ section.our-services .btn-danger {
 
 
 /*=====  Discounts form  =====  BEGIN  =====*/
+  /*===  Форма Section 01  ===*/
+.top-form-control {
+  display: block;
+  width: 100%;
+  height: 37px;
+  padding: 6px 12px;
+  font-size: 16px;
+  line-height: 1.428571429;
+  color: #555;
+  vertical-align: middle;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);
+  box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);
+  -webkit-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+  transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+}
+
+.top-discouts-form-all {
+  position: relative;
+  margin-top: 45px;
+  float: right;
+  margin-right: -10px;
+  text-align: center;
+}
+
+.top-form-control {
+}
+
+.top-discouts-form-opocity {
+  background-color: #fff;
+  border-style: solid;
+  border-color: #79b4c8;
+  border-width: 6px;
+  width: 440px;
+  height: 340px;
+}
+
+.top-discouts-form-ontop {
+  position: absolute;
+  width: 440px;
+  top: 0;
+}
+
+.top-discouts-form-ontop .discounts-lable {
+  margin-left: 10px;
+  margin-top: 12px;
+}
+
+.top-discouts-form-ontop .discounts-text {
+  line-height: 1.1;
+}
+
+.top-discouts-form-ontop .form-discounts {
+  width: 400px;
+  margin-top: 10px;
+}
+
+.top-discouts-form-ontop .text-form-under {
+  width: 130px;
+  margin-top: 10px;
+}
+
+.top-discouts-form-ontop .timer {
+  background: url('../img/timer01.png') center center;
+  background-repeat: no-repeat;
+  width: 207px;
+  height: 62px;
+  white-space: nowrap;
+  margin-top: -5px;
+}
+
+.top-discouts-form-ontop .timer .timer-section {
+  background: url('../img/timer_section01.png') center;
+  background-repeat: repeat-x;
+  background-position-y: 9px;
+  width: 66px;
+}
+
+.top-discouts-form-ontop .timer-container {
+  margin-top: -3px;
+  margin-left: 120px;
+}
+
+.top-discouts-form-ontop .timer-container .timer-lable {
+  width: 66px;
+}
+
+.top-btn {
+display: inline-block;
+padding: 0px 12px;
+margin-bottom: 0;
+font-weight: normal;
+text-align: center;
+white-space: nowrap;
+vertical-align: middle;
+cursor: pointer;
+border: 1px solid transparent;
+border-radius: 4px;
+box-shadow: 0px 3px 0px 0px #a67202;
+-webkit-user-select: none;
+width: 400px;
+height: 40px;
+}
+
+
+  /*===  Форма Section 08  ===*/
 .discouts-form-all {
   position: relative;
   margin-top: 45px;
