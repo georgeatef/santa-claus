@@ -1,6 +1,6 @@
 $(function(){
 
-	//
+	//////////
   //=====  Forms  =====//
   //
 	var recipient = 'knplink@gmail.com'; //dedmoroz.snegur@gmail.com
@@ -20,18 +20,39 @@ $(function(){
 		$(this).find('[name="recipient"]').val(recipient);
 
 		$.post('http://lpmailer.herokuapp.com/', $(this).serialize()).always(function(){
-			window.location = 'thank.html';
+			window.location = 'index.html';
 		})
 	});
 
 
-	//
+	//////////
+  //=====  Fix validation alert  =====//
+  //
+
+  $(document).ready(function() {
+    var elements = document.getElementsByTagName("input, textarea");
+    for (var i = 0; i < elements.length; i++) {
+      elements[i].oninvalid = function(e) {
+        e.target.setCustomValidity("");
+        if (!e.target.validity.valid) {
+          e.target.setCustomValidity("Пожалуйста, заполните это поле");
+        }
+      };
+      elements[i].oninput = function(e) {
+        e.target.setCustomValidity("");
+      };
+    }
+  });
+
+
+	//////////
   //=====  Placeholder  =====//
   //
   // Support placeholders in IE9
   $('input, textarea').placeholder();
 
-  //
+
+  //////////
   //=====  Countdown Timer  =====//
   //
   // set the interval in 72 hours
