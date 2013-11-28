@@ -343,10 +343,10 @@ section.no-problem {
 
 section.no-problem .description-problem,
 section.no-problem .description-no-problem {
-	width: 420px;
+	width: 460px;
 	float: left;
-	margin-left: 30px;
-	margin-right: 30px;
+	margin-left: 10px;
+	margin-right: 10px;
 }
 
 section.no-problem .no-problem-text {
