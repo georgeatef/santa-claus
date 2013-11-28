@@ -22,7 +22,6 @@ body {
   margin-bottom: auto;
   position: relative;
   min-height: 520px;
-  padding-bottom: 20px;
   float: left;
   height: 100%;
 }
@@ -461,6 +460,10 @@ height: 40px;
 }
 
 /*Timer*/
+.our-secvices-time-all {
+  margin-top: 30px;
+}
+
 .our-services-timer {
   background: url('../img/timer01.png') center center;
   background-repeat: no-repeat;
@@ -469,7 +472,7 @@ height: 40px;
   white-space: nowrap;
 }
 
-.our-services-timer .timer-section {
+.our-services-timer .our-services-timer-section {
   background: url('../img/timer_section01.png') center;
   background-repeat: repeat-x;
   background-position-y: 9px;
@@ -480,7 +483,7 @@ height: 40px;
   margin-top: -3px;
 }
 
-.our-services-timer-container .timer-lable {
+.our-services-timer-container .our-services-timer-lable {
   width: 66px;
 }
 
