@@ -44,13 +44,13 @@ header {
 	font-variant: small-caps;
 }
 
-.rubric {
+/**.rubric {
 	width: 820px;
 	margin-top: 20px;
 }
+**/
 
-
-/*Section 01 Професиональный сантаклаус и */
+/*Section 01 @>D5A8>=0;L=K9 A0=B0:;0CA 8 */
 section.profi-santa {
 	background: url('../img/profi_santa_bacground01.jpg') center center;
 	background-color: #fff;
@@ -85,7 +85,7 @@ section.profi-santa .profi-ribbon {
 /*---*/
 /*=====  END  =====  */
 
-		/*=====  Почему мы  =====  BEGIN  =====*/
+		/*=====  >G5<C <K  =====  BEGIN  =====*/
 section.conclusion-table {
 	margin-left: auto;
 	margin-right: auto;
@@ -152,10 +152,10 @@ section.conclusion-table .like {
 	margin-bottom: 16px;
 	margin-left: 60px;
 }
-		/*=====  Почему мы  =====  END  =====*/
+		/*=====  >G5<C <K  =====  END  =====*/
 
 
-/*Section 02 Наши костюмы*/
+/*Section 02 0H8 :>ABN<K*/
 .our-suit-rubric {
 	margin-top: 80px;
 }
@@ -196,7 +196,7 @@ section.our-suit .suit-snowman {
 }
 
 
-/*Section 03 Наши услуги*/
+/*Section 03 0H8 CA;C38*/
 section.our-services {
 	background-color: transparent;
 	margin-top: 67px;
@@ -273,7 +273,7 @@ section.our-services .congratulations-02 {
 }
 
 
-/*Section 04 Как мы работаем*/
+/*Section 04 0: <K @01>B05<*/
 section.how-we-work {
 	background-image: url('../img/how_we_work01.png');
 	background-position: center;
@@ -284,7 +284,7 @@ section.how-we-work {
 }
 
 
-/*Section 05 Отзывы наших клиентов*/
+/*Section 05 B7K2K =0H8E :;85=B>2*/
 section.reviews {
 	background-image: url('../img/reviews_background01.png');
 	background-repeat: repeat-x;
@@ -336,7 +336,7 @@ section.reviews .anna {
 }
 
 
-/*Section 06 Проблемы возникающие при заказе ...*/
+/*Section 06 @>1;5<K 2>7=8:0NI85 ?@8 70:075 ...*/
 section.no-problem {
 	margin-top: 60px;
 }
@@ -385,7 +385,7 @@ section.no-problem .tick {
 }
 
 
-/*Section 07 Проблемы возникающие при заказе ...*/
+/*Section 07 @>1;5<K 2>7=8:0NI85 ?@8 70:075 ...*/
 section.our-clients {
 	background-color: #38b9c8;
 	color: #fff;
@@ -429,7 +429,7 @@ section.our-clients .bodo {
 }
 
 
-/*Section 08 Акция "Девочка с подарком"*/
+/*Section 08 :F8O "52>G:0 A ?>40@:><"*/
 section.action {
 	background-image: url('../img/action_background01.jpg');
 	background-position: center center;
@@ -562,7 +562,7 @@ footer .width-frame-text {
 /*=====  END  =====  */
 
 
-/*=====  Странице благодарности  =====  BEGIN  =====*/
+/*=====  !B@0=8F5 1;03>40@=>AB8  =====  BEGIN  =====*/
 section.thank {
 	background: url('../img/profi_santa_bacground01.jpg') center center;
 	background-color: #fff;
