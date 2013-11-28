@@ -22,9 +22,9 @@ header .namber-one {
 }
 
 header .img-phone {
-	font-size: 24px;
 	float: left;
-	margin-top: 20px;
+	height: 25px;
+	margin-top: 22px;
 	margin-left: 20px;
 }
 
@@ -53,7 +53,7 @@ header {
 
 /*Section 01 Професиональный сантаклаус и */
 section.profi-santa {
-	background: url('../img/profi_santa_bacground03.jpg') center center;
+	background: url('../img/profi_santa_bacground01.jpg') center center;
 	background-color: #fff;
 	min-height: 690px;
 	background-repeat: repeat-x;
@@ -432,7 +432,7 @@ section.our-clients .bodo {
 
 /*Section 08 Акция "Девочка с подарком"*/
 section.action {
-	background-image: url('../img/action_background01.png');
+	background-image: url('../img/action_background01.jpg');
 	background-position: center center;
 	background-color: #fff;
 	background-repeat: repeat-x;	
@@ -561,7 +561,7 @@ footer .width-frame-text {
 
 /*=====  Странице благодарности  =====  BEGIN  =====*/
 section.thank {
-	background: url('../img/profi_santa_bacground01.png') center center;
+	background: url('../img/profi_santa_bacground01.jpg') center center;
 	background-color: #fff;
 	min-height: 458px;
 	background-repeat: repeat-x;
