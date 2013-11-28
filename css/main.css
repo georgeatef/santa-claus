@@ -508,7 +508,7 @@ footer .width-frame-text {
 .callback-box-img,
 .callback-hanger-img,
 .callback-smile-img {
-	min-width: 400px;
+	max-width: 400px;
 	margin-top: 20px;
 }
 
