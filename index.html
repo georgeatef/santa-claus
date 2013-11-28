@@ -342,7 +342,7 @@
             </div>
           </form>
           <div class="font15-R text-rubric-uppercase text-form-under">торопитесь до конца акции осталось:</div>
-          <div class="timer font48-R text-rubric">
+          <div class="timer font48-R textmodal-dialog-callback-rubric">
             <div class="timer-section nowrap-div countdownHours">45</div><div class="nowrap-div timer-section countdownMinutes">45</div><div class="nowrap-div timer-section countdownSeconds">45</div>
           </div>
           <div class="timer-container font15-R">
@@ -411,42 +411,43 @@
 
 <!-- ===  MODALS  === -->
 <!-- =====  Спливаюча форма "Заказать обратный звонок"  =====  BEGIN-->
-<div class="modal fade" id="callbackModal">
-  <div class="modal-dialog modal-callback">
-    <div class="modal-content modal-content-callbac">
-    <button type="button" class="close close-position" data-dismiss="modal" aria-hidden="true">&times;</button>
-      <div class="callback-modal text-rubric nowrap-div">
-        <div class="callback-modal-text font26-B nowrap-div">Заказать обратный звонок</div>
+<div class="modal-dialog-callback">
+  <div class="modal fade" id="callbackModal">
+    <div class="modal-dialog modal-callback">
+      <div class="modal-content modal-content-callbac">
+        <button type="button" class="close close-position" data-dismiss="modal" aria-hidden="true">&times;</button>
+        <div class="callback-modal text-rubric nowrap-div">
+          <div class="callback-modal-text font26-B nowrap-div">Заказать обратный звонок</div>
 
-        <div class="form-callback text-rubric">
-          <form class="form-horizontal" role="form">
-            <div class="form-group">
-              <div class="col-md-12">
-                <input type="hidden" name="subject" value='Заказали "Обратный звонок"' />
-                <input type="hidden" name="sender" value="info@toplanding.com.ua" />
-                <input type="hidden" name="recipient" />
-                <input type="hidden" name="name" />
-                <input type="hidden" name="message" />
-                <input type="text" name="phone" class="form-control" placeholder="Ваше имя" required>
+          <div class="form-callback text-rubric">
+            <form class="form-horizontal" role="form">
+              <div class="form-group">
+                <div class="col-md-12">
+                  <input type="hidden" name="subject" value='Заказали "Обратный звонок"' />
+                  <input type="hidden" name="sender" value="info@toplanding.com.ua" />
+                  <input type="hidden" name="recipient" />
+                  <input type="hidden" name="name" />
+                  <input type="hidden" name="message" />
+                  <input type="text" name="phone" class="form-control" placeholder="Ваше имя" required>
+                </div>
               </div>
-            </div>
-            <div class="form-group">
-              <div class="col-md-12">
-                <input type="text" name="email" class="form-control" placeholder="Контактный телефон" required>
+              <div class="form-group">
+                <div class="col-md-12">
+                  <input type="text" name="email" class="form-control" placeholder="Контактный телефон" required>
+                </div>
               </div>
-            </div>
-            <div class="form-group">
-              <div class="col-md-12">
-                <button type="submit" class="btn btn-warning font26-R text-rubric-uppercase">Заказать</button>
+              <div class="form-group">
+                <div class="col-md-12">
+                  <button type="submit" class="btn btn-warning font26-R text-rubric-uppercase">Заказать</button>
+                </div>
               </div>
-            </div>
-          </form>
+            </form>
+          </div>
         </div>
-      </div>
-    </div>
-    </div><!-- /.modal-content -->
-  </div><!-- /.modal-dialog -->
-</div><!-- /.modal -->
+      </div><!-- /.modal-content -->
+    </div><!-- /.modal-dialog -->
+  </div><!-- /.modal -->
+</div>
 <!-- =====  END  =====-->
 
 <!-- =====  Спливаюча форма "Наши костюмы 01"  =====  BEGIN-->

@@ -43,8 +43,12 @@ body {
   width: 800px;
 }
 
+.modal-dialog-callback .modal-dialog {
+  height: 380px;
+}
+
 .modal-callback {
-  width: 333px !important;
+  width: 380px !important;
 }
 /*=====  END  =====*/
 
