@@ -329,12 +329,12 @@ section.our-services .btn-danger {
   border-style: solid;
   border-color: #79b4c8;
   border-width: 6px;
-  width: 440px;
-  height: 368px;
+  /*width: 440px;*/
+  min-height: 340px;
 }
 
 .top-discouts-form-ontop {
-  position: absolute;
+  position: relative;
   width: 440px;
   top: 0;
 }
@@ -362,7 +362,7 @@ section.our-services .btn-danger {
   background: url('../img/timer01.png') center center;
   background-repeat: no-repeat;
   width: 207px;
-  height: 62px;
+  min-height: 62px;
   white-space: nowrap;
   margin-top: -5px;
 }
@@ -468,19 +468,19 @@ height: 40px;
   border-style: solid;
   border-color: #79b4c8;
   border-width: 6px;
-  width: 332px;
-  height: 380px;
+  /*width: 332px;*/
+  min-height: 340px;
 }
 
 .discouts-form-ontop {
-  position: absolute;
+  position: relative;
   width: 330px;
   top: 0;
 }
 
 .discouts-form-ontop .discounts-lable {
   margin-left: 10px;
-  margin-top: -10px;
+  margin-top: -16px;
 }
 
 .discouts-form-ontop .discounts-text {
@@ -502,7 +502,7 @@ height: 40px;
   background: url('../img/timer01.png') center center;
   background-repeat: no-repeat;
   width: 207px;
-  height: 62px;
+  min-height: 62px;
   white-space: nowrap;
 }
 
