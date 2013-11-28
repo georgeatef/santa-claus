@@ -309,10 +309,10 @@ section.reviews .bottom-background {
 section.reviews .reviews-frame {
 	/*background-color: #000;*/
 	color: #fff;
-	width: 288px;
+	width: 300px;
 	margin-top: 48px;
-	margin-right: 15px;
-	margin-left: 15px;
+	margin-right: 10px;
+	margin-left: 10px;
 	float: left;
 }
 
@@ -321,9 +321,9 @@ section.reviews .reviews-frame-in-frame {
 	color: #000;
 	margin-top: -140px;
 	padding-top: 150px;
-	padding-left: 12px;
+	padding-left: 7px;
 	padding-bottom: 10px;
-	padding-right: 12px;
+	padding-right: 7px;
 	min-height: 400px;
 }
 
