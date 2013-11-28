@@ -37,9 +37,10 @@ body {
 
 .modal-dialog {
   height: 100%;
+  width: 30%;
 }
 
-.modal-dialog.modal-dialog-image {
+.modal-dialog.modal-dialog-image {/d
   width: 800px;
 }
 
