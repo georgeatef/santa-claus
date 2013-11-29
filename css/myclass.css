@@ -37,10 +37,9 @@ body {
 
 .modal-dialog {
   height: 100%;
-  width: 30%;
 }
 
-.modal-dialog.modal-dialog-image {/d
+.modal-dialog.modal-dialog-image {
   width: 800px;
 }
 
@@ -50,6 +49,14 @@ body {
 
 .modal-callback {
   width: 380px !important;
+}
+
+/*Наши костюмы*/
+section.modal-oursuit .modal-dialog {
+  /*height: 100%;*/
+  width: 30%;
+  height: auto;
+}
 }
 /*=====  END  =====*/
 
