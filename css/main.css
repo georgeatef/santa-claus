@@ -186,6 +186,15 @@ section.our-suit .suit-snow-maiden {
 	height: 322px;
 }
 
+section.our-suit .suit-santa-snowmaiden {
+	background-image: url('../img/oursuit_santamaiden01.png');
+	background-repeat: no-repeat;
+	background-color: transparent;
+	background-position: center;
+	width: 250px;
+	height: 322px;
+}
+
 section.our-suit .suit-snowman {
 	background-image: url('../img/oursuit_snowman01.png');
 	background-repeat: no-repeat;
