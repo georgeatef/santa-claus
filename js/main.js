@@ -57,8 +57,8 @@ $(function(){
   //////////
   //=====  Countdown Timer  =====//
   //
-  // set the interval in 72 hours
-  var delta = new Date("2013/09/24 00:00:00").getTime() - new Date("2013/09/21 00:00:00").getTime();
+  // set the interval in 48 hours
+  var delta = new Date("2013/09/23 00:00:00").getTime() - new Date("2013/09/21 00:00:00").getTime();
 
   // variables for time units
   var days, hours, minutes, seconds;
