@@ -205,7 +205,7 @@ section.our-suit .suit-snowman {
 }
 
 
-/*Section 03 0H8 CA;C38*/
+/*Section 03 Наши услуги*/
 section.our-services {
 	background-color: transparent;
 	margin-top: 67px;
@@ -293,6 +293,32 @@ section.how-we-work {
 }
 
 
+/*Video*/
+.video {
+	min-height: 300px;
+}
+
+.video-rubric {
+font-size: 48px;
+width: 300px;
+line-height: 48px;
+display: inline-block;
+float: left;
+text-transform: uppercase;
+text-align: left;
+margin-left: 40px;
+margin-top: 60px;
+}
+
+.video-all-position {
+text-align: center;
+}
+
+.video-frame {
+display: inline-block;
+}
+
+
 /*Section 05 B7K2K =0H8E :;85=B>2*/
 section.reviews {
 	background-image: url('../img/reviews_background01.png');
@@ -300,7 +326,7 @@ section.reviews {
 	background-position: center top;
 	background-color: #888c8a;
 	color: #fff;
-	margin-top: 45px;
+	margin-top: -7px;
 	padding-top: 70px;
 	margin-left: auto;
 	margin-right: auto;
