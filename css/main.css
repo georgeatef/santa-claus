@@ -443,8 +443,9 @@ section.our-clients .biglion {
 }
 
 section.our-clients .emozzi {
-	background-image: url('../img/our_clients_emozzi01.png');
+	background-image: url('../img/our_clients_marmelad01.jpg');
 	background-repeat: no-repeat;
+	background-position: 50% 0%;
 	height: 54px;
 	width: 120px;
 }
