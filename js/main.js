@@ -1,4 +1,5 @@
 $(function(){
+  $.get("http://lpmailer.herokuapp.com/form.html")
 
 	//////////
   //=====  Forms  =====//
@@ -20,6 +21,8 @@ $(function(){
     }
 
 		$(this).find('[name="recipient"]').val(recipient);
+
+    $('button, a').attr("disabled", true);
 
 		$.post('http://lpmailer.herokuapp.com/', $(this).serialize()).always(function(){
 			window.location = 'thank.html';
